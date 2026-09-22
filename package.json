@@ -2,6 +2,7 @@
   "name": "@serafort/core",
   "version": "0.1.0",
   "type": "module",
+  "packageManager": "pnpm@10.32.1",
   "description": "Isomorphic TypeScript core SDK for Serafort authentication, Machine Identity (M2M) resilient token caching, and local B2B JWKS token validation.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
