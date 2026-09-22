@@ -25,7 +25,7 @@
     "type-check": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepare": "husky"
+    "prepare": "npm run build && (husky || true)"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
