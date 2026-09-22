@@ -1,0 +1,34 @@
+{
+  "name": "@serafort/core",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Isomorphic TypeScript core SDK for Serafort authentication, Machine Identity (M2M) resilient token caching, and local B2B JWKS token validation.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
