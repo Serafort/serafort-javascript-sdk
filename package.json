@@ -20,6 +20,30 @@
     "README.md"
   ],
   "sideEffects": false,
+  "license": "MIT",
+  "author": "Serafort",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serafort/serafort-javascript-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Serafort/serafort-javascript-sdk/issues"
+  },
+  "homepage": "https://github.com/Serafort/serafort-javascript-sdk#readme",
+  "keywords": [
+    "serafort",
+    "authentication",
+    "auth",
+    "sdk",
+    "jwt",
+    "m2m",
+    "sso",
+    "rbac",
+    "jwks"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "type-check": "tsc --noEmit",
